@@ -16,7 +16,9 @@ Video Inpainting using 3D Convolutional Neural Network autoencoder
 3. Preprocess the dataset
    
    Run the program `create_dataset.py`. Change parameters as required.
-   Default parameters: 50 images -- 50 video_frames -- 50 mini-batches
+   
+   Default parameters: 50 images -- 50 video_frames -- 50 mini-batches.
+   
    The console will print out progress during the creation of the synthetic data.
 
 4. Train and test the neural network
