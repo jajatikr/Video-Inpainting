@@ -25,3 +25,31 @@ Video Inpainting using 3D Convolutional Neural Network autoencoder
    
    To run the training and testing of the neural network provided, access the python 
    files `train.py` and `test.py`, change parameters as required and run them. 
+
+### Images
+
+Generated frames of color video with moving objects:
+![](images/164_train_color.png)
+Grayscaled frames of video to form the dataset:
+![](images/164_train.png)
+Ground truth video frames:
+![](images/164_train_y.png)
+
+#### Result
+
+Input - Output:
+
+![](images/489Encoded.png)
+![](images/489Decoded.png)
+
+![](images/490Encoded.png)
+![](images/490Decoded.png)
+
+![](images/491Encoded.png)
+![](images/491Decoded.png)
+
+![](images/492Encoded.png)
+![](images/492Decoded.png)
+
+Mean squared error (MSE) loss during training epochs:
+![](images/Loss_Plot.png)
